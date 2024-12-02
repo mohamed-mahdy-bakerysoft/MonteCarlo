@@ -2,9 +2,13 @@
 Monte Carlo module with classes for Die, Game, and Analyzer for simulating dice rolls and analyzing results. Built for DS5100 Final Project
 
 Metadata:
+
   Project Name: Monte Carlo Simulator
+  
   Author: Matthew Lang
+  
   Version: 1.0
+  
   License: MIT
 
 Synopsis:
