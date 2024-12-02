@@ -49,7 +49,7 @@ Synopsis:
     print("Face counts per roll:\n", face_counts)
 
 
-API: #Review to ensure accuracy
+API:
   Die class
     Attributes:
       faces (numpy.ndarray): The faces of the die.
