@@ -15,29 +15,33 @@ Synopsis:
   The Monte Carlo Simulator for this project allows people to roll dice and analyze the results of a dice game. Below is an example of how to install, use, and analyze a simple game with the various classes built: Die, Game, and Analyzer.
 
   Steps for Github:
-    git clone https://github.com/mattlang108/MonteCarlo.git #review to get accurate link
-    cd montecarlo
-    pip install .
+    git clone (https://github.com/mattlang108/MonteCarlo), cd montecarlo, pip install .
 
   1. Import the Information
+     
     import numpy as np
     from montecarlo import Die, Game, Analyzer
   
   2. Create a Die object
+     
     die_faces = np.array([1, 2, 3, 4, 5, 6])
     die = Die(die_faces)
   
   3. Change the weight of a specific face
+     
     die.change_weight(3, 2.0)
   
   4. Create a Game object with multiple dice
+     
     game = Game([die])
   
   5. Play the game by rolling the dice multiple times
+     
     results = game.play(10)
     print("Game Results:\n", results)
   
   6. Analyze the results using the Analyzer
+      
     analyzer = Analyzer(game)
     jackpot_count = analyzer.jackpot()
     print(f"Number of jackpots: {jackpot_count}")
