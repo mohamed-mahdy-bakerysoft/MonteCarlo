@@ -50,6 +50,7 @@ Synopsis:
 
 
 API:
+
   Die class
     Attributes:
       faces (numpy.ndarray): The faces of the die.
