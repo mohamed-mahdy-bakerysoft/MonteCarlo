@@ -4,8 +4,11 @@ Monte Carlo module with classes for Die, Game, and Analyzer for simulating dice 
 Metadata:
 
   Project Name: Monte Carlo Simulator
+  
   Author: Matthew Lang
+  
   Version: 1.0
+  
   License: MIT
 
 Synopsis:
